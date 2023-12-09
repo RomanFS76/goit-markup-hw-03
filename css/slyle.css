@@ -1,0 +1,137 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: White;
+}
+
+/* COMMON styles------------------------------------------------------------- */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  
+}
+
+
+/* .nav {} */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.text {
+  letter-spacing: 0.32px;
+  line-height: 1.5;
+}
+
+.primary-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.secondary-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.third-title {
+  font-size: 20px;
+  line-height: 1.2; /* 120% */
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
+}
+
+/* HEADER------------------------------------------------------------- */
+
+.logo-dark {
+  color: #2e2f42;
+}
+
+.nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  font-weight: 500;
+  color:  #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  color: #434455;
+  font-style: normal;
+}
+
+.address a:hover,
+.address a:focus {
+  color: #404bbf;
+}
+
+/* SERVICE------------------------------------------------------------- */
+
+.service {
+  background-color: #2e2f42;
+}
+
+.service-button {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: white;
+}
+
+.service-button:hover,
+.service-button:focus {
+  background-color: #404bbf;
+}
+
+/* OUR TEAM------------------------------------------------------------- */
+.ourteam {
+  background-color: #f4f4fd;
+}
+
+.ourteam-item {
+ background-color: #FFFFFF;
+}
+
+.portfolio-item {
+    background-color: #FFFFFF;
+}
+
+/* FOOTER------------------------------------------------------------- */
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-light {
+    color: #f4f4fd;
+}
+
+.footer .text {
+  color: #f4f4fd;
+}
