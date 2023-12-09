@@ -26,18 +26,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 
 .flex {
   display: flex;
@@ -59,6 +48,10 @@ img {
 }
 
 .primary-title {
+  margin-bottom: 40px;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
@@ -159,15 +152,6 @@ img {
   background-color: #2e2f42;
 }
 
-.service h1 {
-  margin-bottom: 40px;
-}
-
-.primary-title {
-  width: 496px;
-  margin: 0 auto;
-}
-
 .service-button {
   display: block;
   margin: 0 auto;
@@ -187,6 +171,19 @@ img {
 .service-button:hover,
 .service-button:focus {
   background-color: #404bbf;
+}
+
+.advantages>h2 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-list {
