@@ -173,7 +173,7 @@ img {
   background-color: #404bbf;
 }
 
-.advantages>h2 .visually-hidden {
+.advantages .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -226,12 +226,12 @@ img {
 
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
-  background-color: #ffffff;
-  border: 1px solid #e7e9fc;
+  background-color: #ffffff;  
 }
 
 .portfolio-item-wrapper {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc
 }
 
 /* FOOTER------------------------------------------------------------- */
