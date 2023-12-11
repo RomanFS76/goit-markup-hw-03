@@ -27,7 +27,6 @@ img {
   height: auto;
 }
 
-
 .flex {
   display: flex;
 }
@@ -226,12 +225,13 @@ img {
 
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
-  background-color: #ffffff;  
+  background-color: #ffffff;
 }
 
 .portfolio-item-wrapper {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* FOOTER------------------------------------------------------------- */
